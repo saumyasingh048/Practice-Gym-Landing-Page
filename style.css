@@ -1,0 +1,132 @@
+/* Universally Applied */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.navItems{
+    display: inline-block;
+}
+
+/* Logo */
+#logo img{
+    width: 120px;
+    height: 80px;
+    filter: invert(100%);
+}
+
+/* Nav Bar Elements */
+#navElements{
+    position: absolute;
+    left: 420px;
+    top: 50px;
+
+}
+
+#navElements ul li{
+    float: left;
+    list-style: none;
+}
+
+#navElements ul li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: 'Slabo 27px', serif;
+    color: aliceblue;
+    
+}
+
+#navElements ul li a:hover{
+    
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 2em blue;
+    color: rgb(207, 248, 173);
+    
+}
+
+/* Contact Us Buttons */
+#contactUs{
+    float: right;
+    position: relative;
+    top: 35px;
+    right: 30px;
+    
+}
+
+button{
+    padding: 10px 8px;
+    margin: 5px 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 15px;
+}
+button:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    
+}
+
+/* BODY - Background And Form */
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+input{
+    width: 300px;
+    padding: 15px 10px;
+    border: 2px solid black;
+    margin: 5px 5px;
+    border-radius: 20px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.styleForm{
+    float: right;
+    position: relative;
+    right: 150px;
+    top: 100px;
+    
+}
+
+#submitMe{
+    cursor: pointer;
+
+}
+
+#submitMe:hover{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    border: 2px solid white;
+    font-weight: bolder;
+}
+
+#box{
+    padding: 50px;
+    border: 2px solid white;
+    padding: 25px 25px;
+    border-radius: 15px;
+}
+#boxContent{
+    color: white;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;   
+}
+#boxContent:hover{
+    text-shadow: 1px 1px 2px red, 0 0 2em white, 0 0 2em white;
+    color: rgb(217, 236, 40);
+    font-size: 25px;
+}

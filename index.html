@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navItems" id="logo">
+                <img src="gym.png" alt="LOGO" />
+            </div>
+            <div class="navItems" id="navElements">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navItems" id="contactUs">
+                <button>Call Us Now</button>
+                <button>Email Us</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="mailto:saumya_singh048@rocketmail.com" class="styleForm" enctype="text/plain" method="POST" >
+            <fieldset id="box">
+                <legend id="boxContent">FILL ME!!!</legend>
+
+                <div class="formElement">
+                    <input type="text" name="Name" id="name" placeholder="Enter Your Name" />
+                </div>
+                <div class="formElement">
+                    <input type="text" name="City" id="city" placeholder="Enter Your City" />
+                </div>
+                <div class="formElement">
+                    <input type="number" name="phoneNo" id="pno" placeholder="Enter Your Phone No.: " />
+                </div>
+                <div class="formElement">
+                    <input type="submit" value="SUBMIT" id="submitMe" />
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
